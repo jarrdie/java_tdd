@@ -1,0 +1,73 @@
+{
+    "name": "20-multi-level-dynamic-file-viewer",
+    "creationDateTime": "2018-11-13T09:22:59.720Z",
+    "data": [
+        {
+            "name": "bla.json",
+            "lastModified": "2018-10-05T09:51:17.878Z",
+            "fileSize": 146,
+            "fileSizeUnit": "bytes",
+            "mimeType": "application/json"
+        }, {
+            "name": "Folder0",
+            "type": "Folder",
+            "content": [
+                {
+                    "name": "layers",
+                    "type": "Folder",
+                    "content": [
+                        {
+                            "name": "empty.json",
+                            "lastModified": "2018-10-05T09:51:17.863Z",
+                            "fileSize": 146,
+                            "fileSizeUnit": "bytes",
+                            "mimeType": "application/json"
+                        }
+                    ]
+                }, {
+                    "name": "stations",
+                    "type": "Folder",
+                    "content": [
+                        {
+                            "name": "all.txt",
+                            "lastModified": "2018-10-05T09:51:17.863Z",
+                            "fileSize": 14506,
+                            "fileSizeUnit": "bytes",
+                            "mimeType": "text/plain"
+                        }, {
+                            "name": "stations.json",
+                            "lastModified": "2018-10-05T09:51:17.878Z",
+                            "fileSize": 63415,
+                            "fileSizeUnit": "bytes",
+                            "mimeType": "application/json"
+                        }
+                    ]
+                }, {
+                    "name": "test.bmp",
+                    "lastModified": "2018-10-05T09:51:17.878Z",
+                    "fileSize": 0,
+                    "fileSizeUnit": "bytes",
+                    "mimeType": "image/bmp"
+                }
+            ]
+        }, {
+            "name": "Folder1",
+            "type": "Folder",
+            "content": [
+                {
+                    "name": "index.json",
+                    "lastModified": "2018-10-05T09:51:17.878Z",
+                    "fileSize": 74,
+                    "fileSizeUnit": "bytes",
+                    "mimeType": "application/json"
+                }
+            ]
+        }, {
+            "name": "JesperReehCV.pdf",
+            "lastModified": "2018-10-05T09:51:17.878Z",
+            "fileSize": 20597,
+            "fileSizeUnit": "bytes",
+            "mimeType": "application/pdf"
+        }
+    ]
+}

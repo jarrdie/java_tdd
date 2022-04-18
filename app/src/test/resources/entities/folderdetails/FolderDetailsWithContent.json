@@ -1,0 +1,21 @@
+{
+    "name": "d1",
+    "type": "Folder",
+    "permissions": "d--rwx-",
+    "content": [{
+            "name": "initial.json",
+            "mimeType": "application/json",
+            "fileSize": 28,
+            "fileSizeUnit": "bytes",
+            "lastModified": "2018-11-15T09:27:24.797Z",
+            "permissions": "-f-rwx-",
+            "path": ""
+        }, {
+            "name": "d2",
+            "type": "Folder",
+            "permissions": "d--rwx-",
+            "content": [],
+            "path": ""
+        }],
+    "path": ""
+}

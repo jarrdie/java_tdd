@@ -1,0 +1,14 @@
+{
+    "map": {
+        "0": {
+            "source": "0",
+            "basedir": "path0",
+            "name": "Dynamic file viewer directory"
+        },
+        "1": {
+            "source": "1",
+            "basedir": "path1",
+            "name": "Test edition directory"
+        }
+    }
+}

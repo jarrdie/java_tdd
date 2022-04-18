@@ -1,0 +1,749 @@
+{
+	"stationcount": 174,
+	"_links": [{
+		"type": "navigation",
+		"rel": "self",
+		"href": "/0/stations"
+	},
+	{
+		"type": "navigation",
+		"rel": "parent",
+		"href": "/0"
+	},
+	{
+		"type": "resource",
+		"id": "stationlist",
+		"mime_type": "application/json",
+		"href": "/0/stations/stations.json"
+	},
+	{
+		"type": "navigation",
+		"no": "116038",
+		"href": "/0/stations/Site_13703/116038"
+	},
+	{
+		"type": "navigation",
+		"no": "214031",
+		"href": "/0/stations/Site_7631/214031"
+	},
+	{
+		"type": "navigation",
+		"no": "116558",
+		"href": "/0/stations/Site_103041/116558"
+	},
+	{
+		"type": "navigation",
+		"no": "116350",
+		"href": "/0/stations/Site_52036/116350"
+	},
+	{
+		"type": "navigation",
+		"no": "214254",
+		"href": "/0/stations/Site_103040/214254"
+	},
+	{
+		"type": "navigation",
+		"no": "116541",
+		"href": "/0/stations/Site_33956/116541"
+	},
+	{
+		"type": "navigation",
+		"no": "209288",
+		"href": "/0/stations/Site_41991961/209288"
+	},
+	{
+		"type": "navigation",
+		"no": "116517",
+		"href": "/0/stations/Site_103040/116517"
+	},
+	{
+		"type": "navigation",
+		"no": "208843",
+		"href": "/0/stations/Site_41994244/208843"
+	},
+	{
+		"type": "navigation",
+		"no": "107235",
+		"href": "/0/stations/Site_34724/107235"
+	},
+	{
+		"type": "navigation",
+		"no": "208785",
+		"href": "/0/stations/Site_41994242/208785"
+	},
+	{
+		"type": "navigation",
+		"no": "108779",
+		"href": "/0/stations/Site_103039/108779"
+	},
+	{
+		"type": "navigation",
+		"no": "208280",
+		"href": "/0/stations/Site_9471/208280"
+	},
+	{
+		"type": "navigation",
+		"no": "207993",
+		"href": "/0/stations/Site_9241/207993"
+	},
+	{
+		"type": "navigation",
+		"no": "209361",
+		"href": "/0/stations/Site_10163/209361"
+	},
+	{
+		"type": "navigation",
+		"no": "115923",
+		"href": "/0/stations/Site_10533/115923"
+	},
+	{
+		"type": "navigation",
+		"no": "208835",
+		"href": "/0/stations/Site_9933/208835"
+	},
+	{
+		"type": "navigation",
+		"no": "107573",
+		"href": "/0/stations/Site_6388087/107573"
+	},
+	{
+		"type": "navigation",
+		"no": "208710",
+		"href": "/0/stations/Site_100304/208710"
+	},
+	{
+		"type": "navigation",
+		"no": "209551",
+		"href": "/0/stations/Site_11361/209551"
+	},
+	{
+		"type": "navigation",
+		"no": "209478",
+		"href": "/0/stations/Site_5573/209478"
+	},
+	{
+		"type": "navigation",
+		"no": "115717",
+		"href": "/0/stations/Site_138616/115717"
+	},
+	{
+		"type": "navigation",
+		"no": "109868",
+		"href": "/0/stations/Site_100304/109868"
+	},
+	{
+		"type": "navigation",
+		"no": "208702",
+		"href": "/0/stations/Site_23494154/208702"
+	},
+	{
+		"type": "navigation",
+		"no": "107581",
+		"href": "/0/stations/Site_9013/107581"
+	},
+	{
+		"type": "navigation",
+		"no": "108183",
+		"href": "/0/stations/Site_1776607/108183"
+	},
+	{
+		"type": "navigation",
+		"no": "207811",
+		"href": "/0/stations/Site_124/207811"
+	},
+	{
+		"type": "navigation",
+		"no": "116319",
+		"href": "/0/stations/Site_2445771/116319"
+	},
+	{
+		"type": "navigation",
+		"no": "109645",
+		"href": "/0/stations/Site_139675/109645"
+	},
+	{
+		"type": "navigation",
+		"no": "108258",
+		"href": "/0/stations/Site_1842216/108258"
+	},
+	{
+		"type": "navigation",
+		"no": "193825",
+		"href": "/0/stations/Site_2828902/193825"
+	},
+	{
+		"type": "navigation",
+		"no": "109314",
+		"href": "/0/stations/Site_2450250/109314"
+	},
+	{
+		"type": "navigation",
+		"no": "208629",
+		"href": "/0/stations/Site_9703/208629"
+	},
+	{
+		"type": "navigation",
+		"no": "107565",
+		"href": "/0/stations/Site_6388085/107565"
+	},
+	{
+		"type": "navigation",
+		"no": "109330",
+		"href": "/0/stations/Site_6384450/109330"
+	},
+	{
+		"type": "navigation",
+		"no": "207860",
+		"href": "/0/stations/Site_12345/207860"
+	},
+	{
+		"type": "navigation",
+		"no": "116566",
+		"href": "/0/stations/Site_141768/116566"
+	},
+	{
+		"type": "navigation",
+		"no": "109728",
+		"href": "/0/stations/Site_140721/109728"
+	},
+	{
+		"type": "navigation",
+		"no": "106823",
+		"href": "/0/stations/Site_144858/106823"
+	},
+	{
+		"type": "navigation",
+		"no": "107854",
+		"href": "/0/stations/Site_143822/107854"
+	},
+	{
+		"type": "navigation",
+		"no": "109918",
+		"href": "/0/stations/Site_146902/109918"
+	},
+	{
+		"type": "navigation",
+		"no": "107342",
+		"href": "/0/stations/Site_144860/107342"
+	},
+	{
+		"type": "navigation",
+		"no": "107300",
+		"href": "/0/stations/Site_11753/107300"
+	},
+	{
+		"type": "navigation",
+		"no": "107623",
+		"href": "/0/stations/Site_9241/107623"
+	},
+	{
+		"type": "navigation",
+		"no": "207332",
+		"href": "/0/stations/Site_42044061/207332"
+	},
+	{
+		"type": "navigation",
+		"no": "208827",
+		"href": "/0/stations/Site_42121972/208827"
+	},
+	{
+		"type": "navigation",
+		"no": "115642",
+		"href": "/0/stations/Site_7171/115642"
+	},
+	{
+		"type": "navigation",
+		"no": "207290",
+		"href": "/0/stations/Site_103526/207290"
+	},
+	{
+		"type": "navigation",
+		"no": "207324",
+		"href": "/0/stations/Site_103525/207324"
+	},
+	{
+		"type": "navigation",
+		"no": "207308",
+		"href": "/0/stations/Site_103527/207308"
+	},
+	{
+		"type": "navigation",
+		"no": "207365",
+		"href": "/0/stations/Site_1926078/207365"
+	},
+	{
+		"type": "navigation",
+		"no": "115568",
+		"href": "/0/stations/Site_13311/115568"
+	},
+	{
+		"type": "navigation",
+		"no": "108563",
+		"href": "/0/stations/Site_11594959/108563"
+	},
+	{
+		"type": "navigation",
+		"no": "109280",
+		"href": "/0/stations/Site_267640/109280"
+	},
+	{
+		"type": "navigation",
+		"no": "107003",
+		"href": "/0/stations/Site_103041/107003"
+	},
+	{
+		"type": "navigation",
+		"no": "116004",
+		"href": "/0/stations/Site_11594960/116004"
+	},
+	{
+		"type": "navigation",
+		"no": "109827",
+		"href": "/0/stations/Site_23494154/109827"
+	},
+	{
+		"type": "navigation",
+		"no": "115907",
+		"href": "/0/stations/Site_21191321/115907"
+	},
+	{
+		"type": "navigation",
+		"no": "210302",
+		"href": "/0/stations/Site_42121973/210302"
+	},
+	{
+		"type": "navigation",
+		"no": "107011",
+		"href": "/0/stations/Site_103041/107011"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-StaMe",
+		"href": "/0/stations/Site_CZ0001/2_CZ-StaMe"
+	},
+	{
+		"type": "navigation",
+		"no": "208819",
+		"href": "/0/stations/Site_141768/208819"
+	},
+	{
+		"type": "navigation",
+		"no": "209130",
+		"href": "/0/stations/Site_18338490/209130"
+	},
+	{
+		"type": "navigation",
+		"no": "209544",
+		"href": "/0/stations/Site_31832/209544"
+	},
+	{
+		"type": "navigation",
+		"no": "115980",
+		"href": "/0/stations/Site_1242635/115980"
+	},
+	{
+		"type": "navigation",
+		"no": "107466",
+		"href": "/0/stations/Site_10163/107466"
+	},
+	{
+		"type": "navigation",
+		"no": "107532",
+		"href": "/0/stations/Site_1346343/107532"
+	},
+	{
+		"type": "navigation",
+		"no": "107607",
+		"href": "/0/stations/Site_1345486/107607"
+	},
+	{
+		"type": "navigation",
+		"no": "208140",
+		"href": "/0/stations/Site_5113/208140"
+	},
+	{
+		"type": "navigation",
+		"no": "109561",
+		"href": "/0/stations/Site_794623/109561"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-Tra",
+		"href": "/0/stations/Site_2295672/2_CZ-Tra"
+	},
+	{
+		"type": "navigation",
+		"no": "106484",
+		"href": "/0/stations/Site_10973/106484"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-Nov",
+		"href": "/0/stations/Site_2571701/2_CZ-Nov"
+	},
+	{
+		"type": "navigation",
+		"no": "116533",
+		"href": "/0/stations/Site_14091/116533"
+	},
+	{
+		"type": "navigation",
+		"no": "116061",
+		"href": "/0/stations/Site_795651/116061"
+	},
+	{
+		"type": "navigation",
+		"no": "109108",
+		"href": "/0/stations/Site_1734871/109108"
+	},
+	{
+		"type": "navigation",
+		"no": "108993",
+		"href": "/0/stations/Site_10537999/108993"
+	},
+	{
+		"type": "navigation",
+		"no": "208850",
+		"href": "/0/stations/Site_5343/208850"
+	},
+	{
+		"type": "navigation",
+		"no": "214312",
+		"href": "/0/stations/Site_1235/214312"
+	},
+	{
+		"type": "navigation",
+		"no": "209007",
+		"href": "/0/stations/Site_25267/209007"
+	},
+	{
+		"type": "navigation",
+		"no": "207654",
+		"href": "/0/stations/Site_7861/207654"
+	},
+	{
+		"type": "navigation",
+		"no": "115881",
+		"href": "/0/stations/Site_1840426/115881"
+	},
+	{
+		"type": "navigation",
+		"no": "208116",
+		"href": "/0/stations/Site_8323/208116"
+	},
+	{
+		"type": "navigation",
+		"no": "207803",
+		"href": "/0/stations/Site_8093/207803"
+	},
+	{
+		"type": "navigation",
+		"no": "207944",
+		"href": "/0/stations/Site_9013/207944"
+	},
+	{
+		"type": "navigation",
+		"no": "207910",
+		"href": "/0/stations/Site_7171/207910"
+	},
+	{
+		"type": "navigation",
+		"no": "108456",
+		"href": "/0/stations/Site_12531/108456"
+	},
+	{
+		"type": "navigation",
+		"no": "107284",
+		"href": "/0/stations/Site_10431/107284"
+	},
+	{
+		"type": "navigation",
+		"no": "109041",
+		"href": "/0/stations/Site_12923/109041"
+	},
+	{
+		"type": "navigation",
+		"no": "107029",
+		"href": "/0/stations/Site_11361/107029"
+	},
+	{
+		"type": "navigation",
+		"no": "107078",
+		"href": "/0/stations/Site_7861/107078"
+	},
+	{
+		"type": "navigation",
+		"no": "208009",
+		"href": "/0/stations/Site_1794830/208009"
+	},
+	{
+		"type": "navigation",
+		"no": "107490",
+		"href": "/0/stations/Site_12143/107490"
+	},
+	{
+		"type": "navigation",
+		"no": "108464",
+		"href": "/0/stations/Site_1468186/108464"
+	},
+	{
+		"type": "navigation",
+		"no": "109181",
+		"href": "/0/stations/Site_1825906/109181"
+	},
+	{
+		"type": "navigation",
+		"no": "107177",
+		"href": "/0/stations/Site_32007/107177"
+	},
+	{
+		"type": "navigation",
+		"no": "116186",
+		"href": "/0/stations/Site_1820528/116186"
+	},
+	{
+		"type": "navigation",
+		"no": "207688",
+		"href": "/0/stations/Site_7403/207688"
+	},
+	{
+		"type": "navigation",
+		"no": "208793",
+		"href": "/0/stations/Site_5938821/208793"
+	},
+	{
+		"type": "navigation",
+		"no": "207902",
+		"href": "/0/stations/Site_5449486/207902"
+	},
+	{
+		"type": "navigation",
+		"no": "207373",
+		"href": "/0/stations/Site_4881/207373"
+	},
+	{
+		"type": "navigation",
+		"no": "207241",
+		"href": "/0/stations/Site_4421/207241"
+	},
+	{
+		"type": "navigation",
+		"no": "208090",
+		"href": "/0/stations/Site_1776607/208090"
+	},
+	{
+		"type": "navigation",
+		"no": "208017",
+		"href": "/0/stations/Site_1776606/208017"
+	},
+	{
+		"type": "navigation",
+		"no": "207894",
+		"href": "/0/stations/Site_5910315/207894"
+	},
+	{
+		"type": "navigation",
+		"no": "208777",
+		"href": "/0/stations/Site_5978350/208777"
+	},
+	{
+		"type": "navigation",
+		"no": "208868",
+		"href": "/0/stations/Site_5963452/208868"
+	},
+	{
+		"type": "navigation",
+		"no": "205922",
+		"href": "/0/stations/Site_2813/205922"
+	},
+	{
+		"type": "navigation",
+		"no": "207852",
+		"href": "/0/stations/Site_1239895/207852"
+	},
+	{
+		"type": "navigation",
+		"no": "207357",
+		"href": "/0/stations/Site_4651/207357"
+	},
+	{
+		"type": "navigation",
+		"no": "207126",
+		"href": "/0/stations/Site_3961/207126"
+	},
+	{
+		"type": "navigation",
+		"no": "207696",
+		"href": "/0/stations/Site_8588576/207696"
+	},
+	{
+		"type": "navigation",
+		"no": "207084",
+		"href": "/0/stations/Site_3731/207084"
+	},
+	{
+		"type": "navigation",
+		"no": "209882",
+		"href": "/0/stations/Site_9121072/209882"
+	},
+	{
+		"type": "navigation",
+		"no": "209817",
+		"href": "/0/stations/Site_9125915/209817"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-Pod",
+		"href": "/0/stations/Site_2294260/2_CZ-Pod"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-Jan",
+		"href": "/0/stations/Site_2294267/2_CZ-Jan"
+	},
+	{
+		"type": "navigation",
+		"no": "2_CZ-Vra",
+		"href": "/0/stations/Site_2294266/2_CZ-Vra"
+	},
+	{
+		"type": "navigation",
+		"no": "214338",
+		"href": "/0/stations/Site_42108371/214338"
+	},
+	{
+		"type": "navigation",
+		"no": "208157",
+		"href": "/0/stations/Site_32419/208157"
+	},
+	{
+		"type": "navigation",
+		"no": "209189",
+		"href": "/0/stations/Site_2000797/209189"
+	},
+	{
+		"type": "navigation",
+		"no": "208041",
+		"href": "/0/stations/Site_1794831/208041"
+	},
+	{
+		"type": "navigation",
+		"no": "208058",
+		"href": "/0/stations/Site_1794833/208058"
+	},
+	{
+		"type": "navigation",
+		"no": "209155",
+		"href": "/0/stations/Site_18336720/209155"
+	},
+	{
+		"type": "navigation",
+		"no": "110254",
+		"href": "/0/stations/Site_41996110/110254"
+	},
+	{
+		"type": "navigation",
+		"no": "109983",
+		"href": "/0/stations/Site_41996109/109983"
+	},
+	{
+		"type": "navigation",
+		"no": "214262",
+		"href": "/0/stations/Site_11361/214262"
+	},
+	{
+		"type": "navigation",
+		"no": "209452",
+		"href": "/0/stations/Site_156891/209452"
+	},
+	{
+		"type": "navigation",
+		"no": "207100",
+		"href": "/0/stations/Site_107645/207100"
+	},
+	{
+		"type": "navigation",
+		"no": "208579",
+		"href": "/0/stations/Site_1924835/208579"
+	},
+	{
+		"type": "navigation",
+		"no": "208272",
+		"href": "/0/stations/Site_12531/208272"
+	},
+	{
+		"type": "navigation",
+		"no": "208124",
+		"href": "/0/stations/Site_158970/208124"
+	},
+	{
+		"type": "navigation",
+		"no": "208462",
+		"href": "/0/stations/Site_150957/208462"
+	},
+	{
+		"type": "navigation",
+		"no": "209338",
+		"href": "/0/stations/Site_630437/209338"
+	},
+	{
+		"type": "navigation",
+		"no": "111278",
+		"href": "/0/stations/Site_10754/111278"
+	},
+	{
+		"type": "navigation",
+		"no": "207837",
+		"href": "/0/stations/Site_42121974/207837"
+	},
+	{
+		"type": "navigation",
+		"no": "207407",
+		"href": "/0/stations/Site_42038150/207407"
+	},
+	{
+		"type": "navigation",
+		"no": "208611",
+		"href": "/0/stations/Site_105362/208611"
+	},
+	{
+		"type": "navigation",
+		"no": "208884",
+		"href": "/0/stations/Site_209296/208884"
+	},
+	{
+		"type": "navigation",
+		"no": "208892",
+		"href": "/0/stations/Site_42061212/208892"
+	},
+	{
+		"type": "navigation",
+		"no": "209510",
+		"href": "/0/stations/Site_9935/209510"
+	},
+	{
+		"type": "navigation",
+		"no": "208520",
+		"href": "/0/stations/Site_790913/208520"
+	},
+	{
+		"type": "navigation",
+		"no": "208637",
+		"href": "/0/stations/Site_630439/208637"
+	},
+	{
+		"type": "navigation",
+		"no": "208769",
+		"href": "/0/stations/Site_863526/208769"
+	},
+	{
+		"type": "navigation",
+		"no": "214296",
+		"href": "/0/stations/Site_42061493/214296"
+	},
+	{
+		"type": "navigation",
+		"no": "207878",
+		"href": "/0/stations/Site_854804/207878"
+	}]
+}

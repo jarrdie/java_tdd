@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--Configuration created by S+M DAK v 2.7 on 07/Aug/2018 10:32:55-->
+<CONFIG>
+	<REMARKS>
+		<REMARK name="Verson 1" ClsId="REMARK" author="By The Anh" note="1204"/>
+	</REMARKS>
+	<PARAMETERS>
+		<PARAMETER name="Cao trinh sensor" ClsId="PARAMETER" id="11" unit="m" value="11.15"/>
+		<PARAMETER name="Dung luong gau" ClsId="PARAMETER" id="12" unit="mm" value="0.2"/>
+		<PARAMETER name="Dai do sensor muc nuoc" ClsId="PARAMETER" id="70" unit="m" value="40"/>
+	</PARAMETERS>
+	<ACQUISITIONS>
+		<SENSOR name="BASE15K chart- Analog/digital input" ClsId="BASE15KAI" type="4" id_hw="1" com="2" baud="57600" scan="10" funct="04" address="0001" registers="114" timeout="500" delay="0">
+			<CHANNEL name="Rain ID3" ClsId="COUNT_DIA03" id="63" type="5" expr="M0*$12" min="0" max="+2E9" mem_ist="44"/>
+			<CHANNEL name="RADAR CH8" ClsId="SING_CH08" id="23" type="3" expr="$11-(M0*1e-6-0.4)*($70/1.6)" min="-5" max="90" mem_ist="13"/>
+		</SENSOR>
+	</ACQUISITIONS>
+	<PROCESSINGS>
+		<PROCESSING name="Standard elaboration RADAR CH8" ClsId="ELAB_STD" type="1" scan="60" shift="0" id="0" min_rate="0" mem_in1="0013" mem_out1="26" mem_out2="27" mem_out3="28" mem_out4="29" mem_out5="30" mem_out6="45" mem_out7="46" mem_out8="47" mem_out9="48" mem_out10="49" mem_out11="50" mem_out12="51" mem_out13="52"/>
+		<PROCESSING name="Mua 1 Gio" ClsId="ELAB_STD" type="1" scan="3600" shift="0" id="0" min_rate="0" mem_in1="44" mem_out1="53" mem_out2="54" mem_out3="55" mem_out4="56" mem_out5="71" mem_out6="72" mem_out7="73" mem_out8="74" mem_out9="75" mem_out10="76" mem_out11="77" mem_out12="78" mem_out13="79"/>
+		<PROCESSING name="Mua 10 Phut" ClsId="ELAB_STD" type="1" scan="600" shift="0" id="0" min_rate="0" mem_in1="44" mem_out1="80" mem_out2="81" mem_out3="82" mem_out4="83" mem_out5="84" mem_out6="85" mem_out7="86" mem_out8="87" mem_out9="88" mem_out10="89" mem_out11="90" mem_out12="91" mem_out13="92"/>
+	</PROCESSINGS>
+	<CONTROLS/>
+	<STORAGES>
+		<RECORD name="Du lieu 10 phut" ClsId="RECORD" id="" format="0" type="0" scan="600" shift="0" file="6" backup="1">
+			<WRITE name="Du lieu muc nuoc 10p" ClsId="RECORD_WRITE" id="1" type="A" dec="3" mem="0013" unit="m"/>
+			<WRITE name="Du lieu mua 10P" ClsId="RECORD_WRITE" id="2" type="B" dec="1" mem="0092" unit="mm"/>
+		</RECORD>
+		<RECORD name="Du lieu 1 Gio" ClsId="RECORD" id="" format="0" type="0" scan="3600" shift="0" file="7" backup="1">
+			<WRITE name="Du lieu muc nuoc 1 gio" ClsId="RECORD_WRITE" id="3" type="A" dec="3" mem="0013" unit="m"/>
+			<WRITE name="Du lieu mua 1 gio" ClsId="RECORD_WRITE" id="4" type="B" dec="1" mem="0079" unit="mm"/>
+		</RECORD>
+		<RECORD name="Du lieu 10p2" ClsId="RECORD" id="" format="0" type="0" scan="600" shift="0" file="8" backup="1">
+			<WRITE name="Du lieu muc nuoc 10p2" ClsId="RECORD_WRITE" id="5" type="A" dec="3" mem="0013" unit="m"/>
+			<WRITE name="Du lieu mua 10p2" ClsId="RECORD_WRITE" id="6" type="B" dec="1" mem="0092" unit="mm"/>
+		</RECORD>
+		<RECORD name="Du lieu 1G2" ClsId="RECORD" id="" format="0" type="0" scan="3600" shift="0" file="9" backup="1">
+			<WRITE name="Du lieu muc nuoc 10p2" ClsId="RECORD_WRITE" id="7" type="A" dec="3" mem="0013" unit="m"/>
+			<WRITE name="Du lieu mua 1G2" ClsId="RECORD_WRITE" id="8" type="B" dec="1" mem="0079" unit="mm"/>
+		</RECORD>
+	</STORAGES>
+	<TRANSMISSIONS>
+		<TRANSMISSION name="Init modem" ClsId="TX_AT_MODEM" type="1" scan="0" delay="0" com="4" baud="38400" string="AT+CMGF=1;AT+IFC=0,0;AT+CBST=7,0,1;AT+CGDCONT=1,&quot;IP&quot;,&quot;v-internet&quot;;AT+WS46=12;ATS0=1;ATV1;ATE0;AT&amp;W"/>
+		<FTP name="FTP transmission" ClsId="TX_FTP" type="0" path="\NandFlash\DA9000\Ftp" host="117.7.236.167" port="21" user="Ftpuser" password="123456" mode="0" dir="ST12-CAMNHUONG">
+			<PUT name="Send file 6" ClsId="TX_FTP_PUT" scan="600" file="6" pack="128" zip="0" rename="CAMNHUONG_10p_%yyyy%mm%dd%hh%nn%ss.dat"/>
+			<PUT name="Send 7" ClsId="TX_FTP_PUT" scan="3600" file="7" pack="128" zip="0" rename="CAMNHUONG_1gio_%yyyy%mm%dd%hh%nn%ss.dat"/>
+		</FTP>
+		<FTP name="FTP receiving" ClsId="RX_FTP" scan="600" host="117.7.236.167" port="21" user="ftpuser" password="123456" mode="0" dir="CONFIG/ST12-CAMNHUONG" path="\NandFlash\DA9000">
+			<GET name="Receiving setup" ClsId="RX_FTP_GET_INI" file="INI.xml" rename="New_INI.xml" restart="1"/>
+			<GET name="Configuration receiving" ClsId="RX_FTP_GET_CNF" file="CNF.xml" rename="New_CNF.xml" restart="1"/>
+			<GET name="Firmware receiving" ClsId="RX_FTP_GET_FW" file="DA9000.zip" rename="DA9000.zip" restart="1"/>
+			<GET name="Commands receiving" ClsId="RX_FTP_GET_CMD" file="Command.txt" rename="Command.txt" restart="0"/>
+		</FTP>
+		<FTP name="FTP 2" ClsId="TX_FTP" type="0" path="\NandFlash\DA9000\Ftp2" host="117.6.129.235" port="2122" user="ftpuser" password="abc@123456" mode="0" dir="ST12-CAMNHUONG">
+			<PUT name="Send file 8" ClsId="TX_FTP_PUT" scan="600" file="8" pack="128" zip="0" rename="CAMNHUONG_10P2_%yyyy%mm%dd%hh%nn%ss.dat"/>
+			<PUT name="Send file 9" ClsId="TX_FTP_PUT" scan="3600" file="9" pack="128" zip="0" rename="CAMNHUONG_1G2_%yyyy%mm%dd%hh%nn%ss.dat"/>
+		</FTP>
+		<HTTP name="HTTP transfer" ClsId="TX_HTTP" type="0" path="\NandFlash\DA9000\Http" host="0.0.0.0" port="80" user="" password=""/>
+	</TRANSMISSIONS>
+	<DISPLAY scan="3">
+		<ROW name="MUC NUOC" ClsId="DISPLAY_ROW" text="MUC NUOC" unit="m" dec="3" mem="0013"/>
+		<ROW name="MUA 10p" ClsId="DISPLAY_ROW" text="MUA 10p" unit="mm" dec="1" mem="0092"/>
+		<ROW name="MUA 1 gio" ClsId="DISPLAY_ROW" text="MUA 1 gio" unit="mm" dec="1" mem="0079"/>
+		<ROW name="Test Rain" ClsId="DISPLAY_ROW" text="Instant Rain" unit="mm" dec="1" mem="0044"/>
+	</DISPLAY>
+</CONFIG>

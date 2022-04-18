@@ -1,0 +1,30 @@
+{
+  "missingss": "/",
+  "dateFormat": "yyyy-MM-dd HH:mm:ss",
+  "timeZone": "Europe/Berlin",
+  "referenceTime": "2015-11-04T07:00:00.000+01:00",
+  "author": "Dave",
+  "placeholders": [
+    {
+      "il.text1.v": "to be filled with real text"
+    },
+    {
+      "il.allgemeineLagebeschreibung1.v": "bla bla bla."
+    },
+    {
+      "ts.OG/207068/S/15m.Cmd.RelAbs.EXP.v": "8"
+    },
+    {
+      "ts.OG/207068/Q/Cmd.P.DEF.v": "24"
+    },
+    {
+      "ts.OG/5290/S/15m.Cmd.RelAbs.EXP.v": "12"
+    },
+    {
+      "ts.OG/3520/S/15m.Cmd.RelAbs.EXP.v": "5"
+    },
+    {
+      "ts.test123.v": "9999"
+    }
+  ]
+}

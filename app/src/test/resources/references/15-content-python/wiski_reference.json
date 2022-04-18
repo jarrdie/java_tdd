@@ -1,0 +1,110 @@
+{
+    "input_parameters": {
+        "station": "st1",
+        "site": "site1",
+        "referenceDate": "date"
+    },
+    "water_level_stations": [
+        {
+            "station_id": "s1",
+            "station_no": "n1",
+            "station_label": "Ha noi",
+            "url": "http://asp-tdem-web.pa.kisters.net/KiWIS/KiWIS?datasource=0&request=getGraph&format=png&type=queryServices&format=png&from=2016-11-06T18%3A30%3A00%2B01%3A00&template=default_cmd_en&height=530&to=2019-04-02T15%3A00%3A00%2B02%3A00&ts_id=495010&width=800&encoding=base64"
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        },
+        {
+        }
+    ],
+    "water_quality_stations": [
+        {
+        },
+        {
+        }
+    ],
+    "water_h_q_table": {
+        "styles": [
+            {
+                "colum_style": {
+                    "selector": "first:child",
+                    "font-weight": "bold"
+                }
+            }
+        ],
+        "columns": [
+            {
+                "field": "r1",
+                "label": "Red River"
+            },
+            {
+                "field": "s1",
+                "label": "Station 1"
+            },
+            {
+                "field": "hqmeasured",
+                "label": "H Q measured",
+                "children": [
+                    {
+                        "field": "t1",
+                        "label": "19h 27/7"
+                    },
+                    {
+                        "field": "t2",
+                        "label": "7h 28/7"
+                    }
+                ]
+            },
+            {
+                "field": "hqforecast",
+                "label": "H Q forecast",
+                "children": [
+                    {
+                        "field": "t1",
+                        "label": "19h 27/7"
+                    },
+                    {
+                        "field": "t2",
+                        "label": "7h 28/7"
+                    }
+                ]
+            }
+        ],
+        "data": [
+            [
+                "Red River",
+                "Ha Noi",
+                "4780",
+                "3540",
+                "up",
+                "From here: forecast data -> it should be merged in Python"
+            ],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ]
+    }
+}

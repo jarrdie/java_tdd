@@ -1,0 +1,74 @@
+{
+    "name": "20-multi-level-dynamic-file-viewer",
+    "creationDateTime": "2018-11-19T12:54:44.949Z",
+    "data": [{
+            "name": "bla.json",
+            "mimeType": "application/json",
+            "fileSize": 146,
+            "fileSizeUnit": "bytes",
+            "lastModified": "2018-10-05T09:51:17.878Z",
+            "permissions": "-f-rwx-"
+        }, {
+            "name": "Folder0",
+            "type": "Folder",
+            "permissions": "d--rwx-",
+            "content": [{
+                    "name": "layers",
+                    "type": "Folder",
+                    "permissions": "d--rwx-",
+                    "content": [{
+                            "name": "empty.json",
+                            "mimeType": "application/json",
+                            "fileSize": 146,
+                            "fileSizeUnit": "bytes",
+                            "lastModified": "2018-10-05T09:51:17.863Z",
+                            "permissions": "-f-rwx-"
+                        }]
+                }, {
+                    "name": "stations",
+                    "type": "Folder",
+                    "permissions": "d--rwx-",
+                    "content": [{
+                            "name": "all.txt",
+                            "mimeType": "text/plain",
+                            "fileSize": 14506,
+                            "fileSizeUnit": "bytes",
+                            "lastModified": "2018-10-05T09:51:17.863Z",
+                            "permissions": "-f-rwx-"
+                        }, {
+                            "name": "stations.json",
+                            "mimeType": "application/json",
+                            "fileSize": 63415,
+                            "fileSizeUnit": "bytes",
+                            "lastModified": "2018-10-05T09:51:17.878Z",
+                            "permissions": "-f-rwx-"
+                        }]
+                }, {
+                    "name": "test.bmp",
+                    "mimeType": "image/bmp",
+                    "fileSize": 0,
+                    "fileSizeUnit": "bytes",
+                    "lastModified": "2018-10-05T09:51:17.878Z",
+                    "permissions": "-f-rwx-"
+                }]
+        }, {
+            "name": "Folder1",
+            "type": "Folder",
+            "permissions": "d--rwx-",
+            "content": [{
+                    "name": "index.json",
+                    "mimeType": "application/json",
+                    "fileSize": 74,
+                    "fileSizeUnit": "bytes",
+                    "lastModified": "2018-10-05T09:51:17.878Z",
+                    "permissions": "-f-rwx-"
+                }]
+        }, {
+            "name": "JesperReehCV.pdf",
+            "mimeType": "application/pdf",
+            "fileSize": 20597,
+            "fileSizeUnit": "bytes",
+            "lastModified": "2018-10-05T09:51:17.878Z",
+            "permissions": "-f-rwx-"
+        }]
+}
