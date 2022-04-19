@@ -1,21 +1,21 @@
 package project.core.entities.permissions;
 
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.logging.Logger;
-
-import static project.core.entities.permissions.FileType.DIRECTORY;
-import static project.core.entities.permissions.FileType.REGULAR_FILE;
-import static project.core.entities.permissions.FileType.SYMBOLIC_LINK;
-import static project.core.entities.permissions.FileType.UNDEFINED;
 import static java.nio.file.Files.isExecutable;
 import static java.nio.file.Files.isReadable;
 import static java.nio.file.Files.isWritable;
 import static java.nio.file.Files.setPosixFilePermissions;
 import static java.nio.file.attribute.PosixFilePermissions.fromString;
 import static org.apache.commons.lang3.StringUtils.isEmpty;
+import static project.core.entities.permissions.FileType.DIRECTORY;
+import static project.core.entities.permissions.FileType.REGULAR_FILE;
+import static project.core.entities.permissions.FileType.SYMBOLIC_LINK;
+import static project.core.entities.permissions.FileType.UNDEFINED;
+
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.logging.Logger;
 
 public class BasicFilePermissionsRules {
 
