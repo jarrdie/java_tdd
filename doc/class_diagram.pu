@@ -1,0 +1,17 @@
+@startuml
+
+title Template pattern
+
+abstract class DbConnector {
+    +connection
+    +{abstract} getConfiguration()
+    +connect()
+}
+
+class OracleConnector{
+    +getConfiguration()
+}
+
+DbConnector <|-- OracleConnector
+
+@enduml
